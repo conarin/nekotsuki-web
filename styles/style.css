@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.links {
+    width: 18%;
+    overflow: auto;
+    background-color: #f0f0ff;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-color: #aaaaaa;
+}
+
+.links ul {
+    padding-left: 1.5em;
+    margin-top: 3.5em;
+    list-style: none;
+}
+
+.links ul li {
+    margin-top: 2em;
+    white-space: nowrap;
+}
+
+.inner-border {
+    border-style: solid;
+    border-width: 0 4px 0 0;
+    border-color: #d0d0d0;
+}
+
+.main {
+    width: 82%;
+    overflow: auto;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0 0 0 1px;
+    background-image: url("../images/nekotsukeshi.jpg");
+    background-attachment: local;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    max-width: 100%;
+}
+
+.left {
+    max-width: 360px;
+    margin-right: 10px;
+}
+
+.right table {
+    border: none;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+.right table th {
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.right table td {
+    padding-top: 2em;
+    padding-bottom: 10px;
+    border-top: 1px solid black;
+}
+
+.title {
+    padding-top: 0.75em;
+}
+
+.center {
+    text-align: center;
+}
+
+.profile {
+    padding-left: 1em;
+}
+
+.news {
+    margin-bottom: 4em;
+}
+
+.youtube::before {
+    content: "●";
+    color: #ff0000;
+}
+
+.twitter::before {
+    content: "●";
+    color: #009ef7;
+}
+
+.dlsite::before {
+    content: "●";
+    color: #052a83;
+}
+
+.pixiv::before {
+    content: "●";
+    color: #0097fa;
+}
+
+.wix::before {
+    content: "●";
+    color: #00cc00;
+}
+
+.tunecore::before {
+    content: "●";
+    color: #ffaa00;
+}
+
+.linktr::before {
+    content: "●";
+    color: #cc00cc;
+}
+
+.color.red {
+    color: red;
+}
